@@ -50,7 +50,6 @@ Add to `package.xml`
 #...
 find_package(rsla_controls_msgs REQUIRED)
 
-add_executable(<executable_name> src/<file>.cpp)
 ament_target_dependencies(<executable_name> rclcpp rsla_controls_msgs)
 ```
 
